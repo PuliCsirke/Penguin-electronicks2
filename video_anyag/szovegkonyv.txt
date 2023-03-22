@@ -1,0 +1,34 @@
+1
+Az átláthatóság kedvéért most üres forgalomirányítókkal, 
+és 2960-as kapcsolókkal ábrázoltuk a rendszert, ezeket természetesen 
+ki lehet cserélni más modellekre, amik képesek ugyanezen funkciókra, 
+és elég porjuk van a hálózat kiépítésére.
+
+2
+
+3
+Minden forgalomirányítón a saját irodálya felé néző portjának 
+a hálózat első címét osztottuk ki, 
+a forgalomirányítók közti hálózatokhál az ábrál nátbató módon. 
+
+4
+Az ügyféltéré a 192.168.0.0 -s hálóhaz, a könyvelésé a 192.168.1.0 -s 
+a vezetésé pedíg a 192.168.2.0 -s hálózat. Mivel egy ekkora irodában nem 
+férne el annyi gép hogy elfoggyanak az ip címek, 
+a legegyszerűbben, 24 es prefixekkel láttuk el a hálózatokat,
+kivéve a forgalomirányítókközti hálózatokat ahol 30 as prefixet használtunk 
+mert ott nem lett volna értelme meghagyni későbbi bővítésre, mivel ott úgyis 
+pont-pont kapcsolat marad, akármekkorára fejlesztenék is az irodát.
+
+5
+A forgalomirányírókon DHPC prokokoll konfigurálásával osztottunk ip címeket, 
+az iroda esetleges jövőbeli bővülésének megkönnyítésére.
+A DHCP pool neve minden forgalomirányítón, 
+az egyszerűség kedvéért IP10 nevű
+(azért 10 mert az első 10 kiosztható ip cím nem kerül kiosztásra) 
+
+6
+A Wi-fi az ügyfelek számára az ügyféltérben egy accesspoint segítségével biztosítjuk
+ennek a wi-finek az SSID-ja: Vendeg
+a jelszava: L-Trans2022
+Erre összesen 15 eszköz lehet csatlekozva egyszerre
