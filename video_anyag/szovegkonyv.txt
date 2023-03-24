@@ -31,4 +31,15 @@ az egyszerűség kedvéért IP10 nevű
 A Wi-fi az ügyfelek számára az ügyféltérben egy accesspoint segítségével biztosítjuk
 ennek a wi-finek az SSID-ja: Vendeg
 a jelszava: L-Trans2022
-Erre összesen 15 eszköz lehet csatlekozva egyszerre
+(Erre összesen 15 eszköz lehet csatlekozva egyszerre)
+
+7
+Minden forgalomirányítón és kapcsolón a privilegizált jelszó az iroda neve kisbetűkkel, 
+ékezetek nélkül és az ip cím harmadik oktete. 
+Így az ügyféltéré: ugyfelter0
+A vezetőségé: vezetoseg2
+És a könyvelésé a konyveles1
+A második irodában a bemutatótéré a bemutatoter1
+Minden forgalomirányítón be van kapcsolva a service password-encryption.
+
+
