@@ -8,6 +8,7 @@ ki lehet cserélni más modellekre, amik képesek ugyanezen funkciókra,
 A képeken jól látszodnak hogy hol helyezkednek el a routerek és switchek.
 Mindegyik szobában ahol gépen dolgoznak a dolgozok ahhoz be kötötünk ethernet kábelt és ahol van a ügyféltér oda accesspointott helyeztünk el.
 A plus szervert és nyomtatókat is elhelyeztük a második irodában, amiket a vezetőségbe került.
+A szerver ip címe (mivel egy szervernek javasolt statikus ip címet adni) 192.168.2.2 lett.
 
 3
 Minden forgalomirányítón a saját irodálya felé néző portjának 
@@ -43,6 +44,7 @@ Minden forgalomirányítón és kapcsolón a privilegizált jelszó az iroda nev
 A vezetőségé: vezetoseg2
 És a könyvelésé a konyveles1
 A második irodában a bemutatótéré a bemutatoter1
+Minden volnali és console jelszó:  admin0 (ejtsd:adminnulla)
 Minden forgalomirányítón be van kapcsolva a service password-encryption.
 
 
